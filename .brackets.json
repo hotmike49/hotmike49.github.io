@@ -1,0 +1,14 @@
+{
+    "path": {
+        "src/sass/slider.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../../assets/css/",
+                "includePaths": [],
+                "imagePath": null,
+                "sourceComments": "none",
+                "outputStyle": "nested"
+            }
+        }
+    }
+}
