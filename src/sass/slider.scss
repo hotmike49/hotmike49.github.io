@@ -53,7 +53,8 @@ body{
 }
 
 a[id="group1"]:target ~ .parallax div.parallax_group{
-  transform: translateY(0); 
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
 }
 a[id="group1"]:target ~ .header a[id="menu1"]{
   background-color:rgba(#680148,1);
@@ -89,6 +90,7 @@ a[id="group4"]:target ~ .header a[id="menu4"]{
 
 .parallax {
   perspective: 300px;
+  -webkit-perspective: 300px;
   height: 100vh;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -97,6 +99,7 @@ a[id="group4"]:target ~ .header a[id="menu4"]{
   position: relative;
   height: 100vh;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   -webkit-transition: -webkit-transform 1.5s ease-in-out;
   transition: transform 1.5s ease-in-out;
 }
